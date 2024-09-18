@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import strided2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-strided2object@esm/index.mjs';
+import strided2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-strided2object@v0.0.0-esm/index.mjs';
 ```
 
 #### strided2object( N, x, stride, offset )
@@ -116,7 +116,7 @@ var obj = strided2object( 4, [ 1, 2, 3, 4 ], 1, 0 );
 <script type="module">
 
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
-import strided2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-strided2object@esm/index.mjs';
+import strided2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-strided2object@v0.0.0-esm/index.mjs';
 
 // Create an array:
 var x = new Complex64Array( 10 );
