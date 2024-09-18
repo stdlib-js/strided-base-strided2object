@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import strided2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-strided2object@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/strided-base-strided2object/tags). For example,
+
+```javascript
 import strided2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-strided2object@v0.0.0-deno/mod.js';
 ```
 
@@ -111,7 +116,7 @@ var obj = strided2object( 4, [ 1, 2, 3, 4 ], 1, 0 );
 
 ```javascript
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
-import strided2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-strided2object@v0.0.0-deno/mod.js';
+import strided2object from 'https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-strided2object@deno/mod.js';
 
 // Create an array:
 var x = new Complex64Array( 10 );
